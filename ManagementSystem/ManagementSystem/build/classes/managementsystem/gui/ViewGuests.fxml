@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" fx:id="rotPane" prefHeight="543.0" prefWidth="902.0" styleClass="mainFxmlClass" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/10.0.1" fx:controller="managementsystem.controllers.ViewGuestsController">
+    <stylesheets>
+        <URL value="@/managementsystem/css/viewguests.css" />
+    </stylesheets>
+   <children>
+      <TableView fx:id="tableview" layoutX="55.0" layoutY="14.0" prefHeight="543.0" prefWidth="902.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <columns>
+          <TableColumn fx:id="nameCol" prefWidth="147.0" text="Name" />
+          <TableColumn fx:id="surnameCol" minWidth="0.0" prefWidth="153.0" text="Surname" />
+            <TableColumn fx:id="countryCol" prefWidth="209.0" text="Country" />
+            <TableColumn fx:id="roomnumberCol" minWidth="0.0" prefWidth="104.0" text="Room Number" />
+            <TableColumn fx:id="roomtypeCol" minWidth="0.0" prefWidth="147.0" text="Room Type" />
+            <TableColumn fx:id="checkinCol" minWidth="0.0" prefWidth="141.0" text="Check-in date" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

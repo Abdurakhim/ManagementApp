@@ -1,0 +1,14 @@
+
+.mainFxmlClass {
+
+}
+
+.jfx-button{
+    -fx-background-color:  #1A237E;
+    -fx-text-fill: white;
+}
+
+
+.jfx-button:hover{
+    -fx-background-color:  #4fc3f7;
+ }

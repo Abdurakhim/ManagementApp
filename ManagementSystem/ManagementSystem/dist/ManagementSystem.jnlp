@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="ManagementSystem.jnlp">
+  <information>
+    <title>ManagementSystem</title>
+    <vendor>User</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="ManagementSystem.jar" size="27306" download="eager" />
+    <jar href="lib\derby-10.14.2.0.jar" size="3232770" download="eager" />
+    <jar href="lib\derbyclient-10.14.2.0.jar" size="588394" download="eager" />
+    <jar href="lib\jfoenix-1.8.0.jar" size="2370071" download="eager" />
+    <jar href="lib\jfoenix-9.0.5.jar" size="2378204" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="ManagementSystem" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="managementsystem.ManagementSystem"  name="ManagementSystem" />
+  <update check="always"/>
+</jnlp>
